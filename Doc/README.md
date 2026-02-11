@@ -1,7 +1,7 @@
 # TODO: Non-Code Questions
 
 ## TestIterator
-1. Also try with a `LinkedList` - does it make any difference?
+1. Also try with a `LinkedList` - does it make any difference? 
 
 The difference in data structure didn't affect the running of the tests. They all ran and still passed as each structure filled the same requirements
 
