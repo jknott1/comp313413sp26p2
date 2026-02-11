@@ -3,7 +3,7 @@
 ## TestIterator
 1. Also try with a `LinkedList` - does it make any difference?
 
-The difference in data structure didn't affect the running of the tests. They all ran and stll passed as each stucture filled the same requirements
+The difference in data structure didn't affect the running of the tests. They all ran and still passed as each structure filled the same requirements
 
 2. What happens if you use `list.remove(Integer.valueOf(77))`?
 
@@ -17,7 +17,7 @@ Same as Test Iterator (1)
 
 2. What does this method do?
 
-it removes the element at index 5
+it removes the element at index 5 (the 6th element - "77")
 
 3. What does this one do?
 
@@ -25,7 +25,7 @@ This one removes the first instance of the specified value if it exists in the l
 
 ## TestPerformance:
 
-### REPS = 100000
+### REPS = 1000000
 
 _LinkedList Add/Remove time_
 
@@ -60,7 +60,7 @@ _LinkedList Access Time_
 |10000| 4403         |
 |100000| 42924        |
 
-_LinkedList Access Time_
+_ArrayList Access Time_
 
 | size | runtime (ms) |
 |----|--------------|
