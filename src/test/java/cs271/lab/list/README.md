@@ -25,3 +25,13 @@ This one removes the first instance of the specified value if it exists in the l
 
 ## TestPerformance:
 
+### REPS = 100000
+
+| size | runtime (ms) |
+|----|--------------|
+| 1  | 34           |
+| 10 | 37           |
+| 100| 52           |
+|1000| 433          |
+|10000| 5294         |
+|100000| 56923        |
